@@ -25,29 +25,15 @@
 let matrix1 = [
     [1, 2, 3, 4],
     [4, 5, 6, 7],
-    [7, 8, 9, 10],
+    [7, 8, 9, 10]
 ];
 
-matrix1.map((eashRow, i) => {
+matrix1.map((eachRow, i) => {
 
     eachRow.map((eachValue, j) => {
         console.log(eachValue);
-        
+        //console.log(eachRow);
+
     })
-
-    console.log(eashRow);
-  
-
 })
-
-  console.log('result', matrix1);
-
-
-
-
-
-
-
-
-
-
+console.log('result', matrix1);
